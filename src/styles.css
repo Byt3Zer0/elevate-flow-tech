@@ -310,3 +310,32 @@
 @utility animate-pulse-glow {
   animation: pulse-glow 3s ease-in-out infinite;
 }
+
+@utility animate-fade-in-up {
+  animation: fade-in-up 0.7s ease-out forwards;
+}
+
+@utility animate-fade-in-up-slow {
+  animation: fade-in-up 0.9s ease-out forwards;
+}
+
+@utility animate-fade-in-scale {
+  animation: fade-in-scale 0.8s ease-out forwards;
+}
+
+@utility animate-delay-100 {
+  animation-delay: 0.1s;
+}
+
+@utility animate-delay-200 {
+  animation-delay: 0.2s;
+}
+
+@utility animate-delay-300 {
+  animation-delay: 0.3s;
+}
+
+@utility animate-delay-500 {
+  animation-delay: 0.5s;
+}
+

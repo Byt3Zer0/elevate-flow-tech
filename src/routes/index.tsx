@@ -178,10 +178,10 @@ function Hero() {
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-violet/20 to-violet-light/10 opacity-60 blur-2xl" />
 
             {/* Main dashboard card */}
-            <div className="relative flex h-full flex-col gap-5 rounded-3xl border border-border/60 bg-surface-elevated/90 p-6 shadow-2xl backdrop-blur-sm sm:p-8">
+            <div className="relative flex h-full flex-col gap-5 rounded-3xl border border-border bg-surface-elevated p-6 shadow-2xl backdrop-blur-sm sm:p-8">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet text-primary-foreground">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet text-primary-foreground shadow-[0_0_20px_-8px_var(--color-violet)]">
                     <Bot className="h-5 w-5" />
                   </div>
                   <div>
@@ -195,7 +195,7 @@ function Hero() {
                 </div>
               </div>
 
-              <div className="flex-1 space-y-3 overflow-hidden rounded-2xl bg-surface p-4">
+              <div className="flex-1 space-y-3 overflow-hidden rounded-2xl bg-surface/80 p-4">
                 <ChatBubble side="left" text="¿En qué puedo ayudarte hoy?" />
                 <ChatBubble side="right" text="Necesito automatizar la atención al cliente de mi tienda." />
                 <ChatBubble

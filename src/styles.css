@@ -179,12 +179,12 @@
 
 @utility card-glow {
   transition: box-shadow 0.4s ease, transform 0.4s ease, border-color 0.4s ease;
-}
 
-@utility card-glow:hover {
-  box-shadow: 0 0 48px -12px var(--color-violet-glow);
-  transform: translateY(-4px);
-  border-color: var(--color-violet);
+  &:hover {
+    box-shadow: 0 0 48px -12px var(--color-violet-glow);
+    transform: translateY(-4px);
+    border-color: var(--color-violet);
+  }
 }
 
 @utility reveal {
